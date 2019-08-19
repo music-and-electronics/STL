@@ -48,10 +48,10 @@ RM = /snap/clion/81/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/CLionProjects/IntQueue
+CMAKE_SOURCE_DIR = /home/john/CLionProjects/STL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/CLionProjects/IntQueue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/john/CLionProjects/STL/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles /home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles /home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named IntQueue
+# Target rules for targets named STL
 
 # Build rule for target.
-IntQueue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 IntQueue
-.PHONY : IntQueue
+STL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 STL
+.PHONY : STL
 
 # fast build rule for target.
-IntQueue/fast:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/build
-.PHONY : IntQueue/fast
+STL/fast:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/build
+.PHONY : STL/fast
 
-IntQueue.o: IntQueue.c.o
-
-.PHONY : IntQueue.o
-
-# target to build an object file
-IntQueue.c.o:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/IntQueue.c.o
-.PHONY : IntQueue.c.o
-
-IntQueue.i: IntQueue.c.i
-
-.PHONY : IntQueue.i
-
-# target to preprocess a source file
-IntQueue.c.i:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/IntQueue.c.i
-.PHONY : IntQueue.c.i
-
-IntQueue.s: IntQueue.c.s
-
-.PHONY : IntQueue.s
-
-# target to generate assembly for a file
-IntQueue.c.s:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/IntQueue.c.s
-.PHONY : IntQueue.c.s
-
-main.o: main.c.o
+main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/main.c.o
-.PHONY : main.c.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -184,11 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... IntQueue"
+	@echo "... STL"
 	@echo "... edit_cache"
-	@echo "... IntQueue.o"
-	@echo "... IntQueue.i"
-	@echo "... IntQueue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

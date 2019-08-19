@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/john/CLionProjects/IntQueue/IntQueue.c">
+			<Option target="IntQueue"/>
+		</Unit>
+		<Unit filename="/home/john/CLionProjects/IntQueue/IntQueue.h">
+			<Option target="IntQueue"/>
+		</Unit>
 		<Unit filename="/home/john/CLionProjects/IntQueue/main.c">
 			<Option target="IntQueue"/>
 		</Unit>

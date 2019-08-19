@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/IntQueue.dir/main.c.o  -o IntQueue 
+/usr/bin/cc -g   CMakeFiles/IntQueue.dir/main.c.o CMakeFiles/IntQueue.dir/IntQueue.c.o  -o IntQueue 

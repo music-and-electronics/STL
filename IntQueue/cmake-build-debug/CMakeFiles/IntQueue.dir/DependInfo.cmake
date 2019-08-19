@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/john/CLionProjects/IntQueue/IntQueue.c" "/home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles/IntQueue.dir/IntQueue.c.o"
   "/home/john/CLionProjects/IntQueue/main.c" "/home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles/IntQueue.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

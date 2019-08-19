@@ -59,45 +59,45 @@ RM = /snap/clion/81/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/CLionProjects/IntQueue
+CMAKE_SOURCE_DIR = /home/john/CLionProjects/STL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/CLionProjects/IntQueue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/john/CLionProjects/STL/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/IntQueue.dir
+# Target rules for target CMakeFiles/STL.dir
 
 # All Build rule for target.
-CMakeFiles/IntQueue.dir/all:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/depend
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target IntQueue"
-.PHONY : CMakeFiles/IntQueue.dir/all
+CMakeFiles/STL.dir/all:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/depend
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target STL"
+.PHONY : CMakeFiles/STL.dir/all
 
 # Include target in all.
-all: CMakeFiles/IntQueue.dir/all
+all: CMakeFiles/STL.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/IntQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/IntQueue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/IntQueue/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/IntQueue.dir/rule
+CMakeFiles/STL.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STL.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CLionProjects/STL/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/STL.dir/rule
 
 # Convenience name for target.
-IntQueue: CMakeFiles/IntQueue.dir/rule
+STL: CMakeFiles/STL.dir/rule
 
-.PHONY : IntQueue
-
-# clean rule for target.
-CMakeFiles/IntQueue.dir/clean:
-	$(MAKE) -f CMakeFiles/IntQueue.dir/build.make CMakeFiles/IntQueue.dir/clean
-.PHONY : CMakeFiles/IntQueue.dir/clean
+.PHONY : STL
 
 # clean rule for target.
-clean: CMakeFiles/IntQueue.dir/clean
+CMakeFiles/STL.dir/clean:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/clean
+.PHONY : CMakeFiles/STL.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/STL.dir/clean
 
 .PHONY : clean
 

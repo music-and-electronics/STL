@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IntQueue.dir/main.c.o"
+  "CMakeFiles/IntQueue.dir/IntQueue.c.o"
   "IntQueue.pdb"
   "IntQueue"
 )
