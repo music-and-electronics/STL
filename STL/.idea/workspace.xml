@@ -11,17 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869f98b3-c4b2-4892-99bc-f8b1c369e9be" name="Default Changelist" comment="Hello">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STL.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STL.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STL.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/STL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STL.h" beforeDir="false" afterPath="$PROJECT_DIR$/STL.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STL.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STL.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STL.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="869f98b3-c4b2-4892-99bc-f8b1c369e9be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../IntStack" beforeDir="false" afterPath="$PROJECT_DIR$/../IntStack" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566230060958</updated>
       <workItem from="1566230062516" duration="2859000" />
+      <workItem from="1566234193008" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1566230529458</created>
@@ -110,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
