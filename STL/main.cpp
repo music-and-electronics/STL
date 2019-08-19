@@ -2,8 +2,8 @@
 
 int main()
 {
-    Queue::IntQueue int_queue;
-    Queue queue;
+    STL::Queue::IntQueue int_queue;
+    STL::Queue queue;
 
     char end_the_queue_loop='y';
     int queue_capacity;
@@ -23,7 +23,7 @@ int main()
         int queue_menu,data_to_input;
 
         cout<<"Current Data Size"<<queue.Queue_Count(&int_queue)<<"/"<<queue.Queue_Capacity(&int_queue)<<endl;
-        cout<<"(1)Enqueue (2)Dequeue (3)Peek (4)Print (0)End"<<endl;
+        cout<<"(1)Enqueue (2)Dequeue (3)Peek (4)Print (5)Search (0)End"<<endl;
         cin>>queue_menu;
 
         if(queue_menu==0)
@@ -85,6 +85,14 @@ int main()
             {
                 queue.Queue_Print(&int_queue);
                 break;
+            }
+
+            case 5:
+            {
+                cout<<"Data : ";
+                cin>>data_to_input;
+
+
             }
 
         }

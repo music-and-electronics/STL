@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/john/CLionProjects/STL/cmake-build-debug/STL.h">
+		<Unit filename="/home/john/CLionProjects/STL/STL.h">
 			<Option target="STL"/>
 		</Unit>
 		<Unit filename="/home/john/CLionProjects/STL/main.cpp">
