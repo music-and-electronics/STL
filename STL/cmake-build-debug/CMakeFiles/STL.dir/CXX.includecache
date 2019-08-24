@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/john/CLionProjects/STL/STL.h
+C:/Users/kjh97/CLionProjects/STL/STL/STL.h
 iostream
 -
 
-/home/john/CLionProjects/STL/main.cpp
+C:/Users/kjh97/CLionProjects/STL/STL/main.cpp
 STL.h
-/home/john/CLionProjects/STL/STL.h
+C:/Users/kjh97/CLionProjects/STL/STL/STL.h
 

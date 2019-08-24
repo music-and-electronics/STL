@@ -91,7 +91,8 @@ int main()
             {
                 cout<<"Data : ";
                 cin>>data_to_input;
-
+                int searched_index=queue.Queue_Search(&int_queue,data_to_input);
+                cout<<"data["<<searched_index<<"]"<<":"<<data_to_input<<endl;
 
             }
 

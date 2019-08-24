@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STL.dir/main.cpp.o"
+  "CMakeFiles/STL.dir/main.cpp.obj"
   "STL.pdb"
-  "STL"
+  "STL.exe"
+  "STL.exe.manifest"
+  "libSTL.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
